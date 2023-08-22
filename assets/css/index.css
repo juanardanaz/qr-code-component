@@ -38,28 +38,28 @@ a:active {
 /* ========= FONT ========= */
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/font/Outfit-Bold.woff2") format("woff2"), url("/assets/font/Outfit-Bold.woff") format("woff");
+  src: url("../font/Outfit-Bold.woff2") format("woff2"), url("../font/Outfit-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/font/Outfit-Regular.woff2") format("woff2"), url("/assets/font/Outfit-Regular.woff") format("woff");
+  src: url("../font/Outfit-Regular.woff2") format("woff2"), url("../font/Outfit-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/font/Outfit-Light.woff2") format("woff2"), url("/assets/font/Outfit-Light.woff") format("woff");
+  src: url("../font/Outfit-Light.woff2") format("woff2"), url("../font/Outfit-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Outfit";
-  src: url("/assets/font/Outfit-ExtraLight.woff2") format("woff2"), url("/assets/font/Outfit-ExtraLight.woff") format("woff");
+  src: url("../font/Outfit-ExtraLight.woff2") format("woff2"), url("../font/Outfit-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;

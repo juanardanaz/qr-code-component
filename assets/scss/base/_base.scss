@@ -1,0 +1,38 @@
+/* ========= BASE ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: var(--light-gray);
+    font-family: var(--body-font);
+    color: var(--dark-blue);
+}
+
+h1 {
+    font-weight: var(--font-bold);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: var(--dark-blue);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    &:active {
+        color: var(--blue);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+}

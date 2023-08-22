@@ -1,0 +1,62 @@
+/* ========= FONT ========= */
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/Outfit-Bold.woff2') format('woff2'),
+        url('/assets/font/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/Outfit-Regular.woff2') format('woff2'),
+        url('/assets/font/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/Outfit-Light.woff2') format('woff2'),
+        url('/assets/font/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/Outfit-ExtraLight.woff2') format('woff2'),
+        url('/assets/font/Outfit-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* ========= VARIABLES ========= */
+:root {
+    /* ========= Colors ========= */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --blue: hsl(228, 45%, 44%);
+
+    /* ========= Font and Typography ========= */
+    /* .5rem = 8px | 1rem = 16px  */
+    --body-font: 'Outfit';
+
+    /* ========= Font Weight ========= */
+    --font-regular: normal;
+    --font-bold: bold;
+    --font-light: 300;
+    --font-extra-light: 200;
+
+    /* ========= Z Index ========= */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
